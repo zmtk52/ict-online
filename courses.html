@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT - Electro - Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Бастапқы бет</a></li>
+                <li><a href="courses.html">Курстар</a></li>
+                <li><a href="about.html">Біз туралы</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="user_profile.html">Профиль</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="courses">
+        <h2>Біздің курстар</h2>
+        <div class="course-container">
+            <div class="course">
+                <h3>Тарау 1</h3>
+                <p>АКТ бойынша жалпы білім</p>
+                <a href="#contact" class="button">Жазылу</a>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="450" height="300" src="https://www.youtube.com/embed/5faA3uq_93A?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div id="progress-section1"></div>
+                <div id="result-section1"></div>
+            
+                <section id="test">
+                    <h2>Тест</h2>
+                
+                    <div class="question">
+                        <h3>Сұрақ 1:</h3>
+                        <p>АКТ термині қай жылы енгізілді?</p>
+                
+                        <ul class="answers">
+                            <li><input type="radio" name="q1" value="a"> 1990</li>
+                            <li><input type="radio" name="q1" value="b"> 2000</li>
+                            <li><input type="radio" name="q1" value="c"> 1995</li>
+                        </ul>
+                    </div>
+                
+                    <div class="question">
+                        <h3>Сұрақ 2:</h3>
+                        <p>Деректерді компьютердің тұрақты жадында сақтауға қандай функция жауап береді?</p>
+                
+                        <ul class="answers">
+                            <li><input type="radio" name="q2" value="a"> RAM </li>
+                            <li><input type="radio" name="q2" value="b">CPU </li>
+                            <li><input type="radio" name="q2" value="c"> HDD</li>
+                        </ul>
+                    </div>
+                
+                    <button onclick="checkAnswers1()">Тексеру</button>
+                    <div id="result-section1"></div>
+                    <div id="result"></div>
+                </section>
+                
+            </div>
+            <div class="course">
+                <h3>Тарау 2</h3>
+                <p>Сайт,презентация және басқаларын дұрыс құру</p>
+                <a href="#contact" class="button">Жазылу</a>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="450" height="300" src="https://www.youtube.com/embed/r8IjZo54LjU?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div id="progress-section1"></div>
+<div id="result-section1"></div>
+                <section id="test">
+                    <h2>Тест</h2>
+                
+                    <div class="question">
+                        <h3>Сұрақ 1:</h3>
+                        <p>Желіде деректерді беру кезінде HTTPS протоколы қандай функцияны орындайды??</p>
+                
+                        <ul class="answers">
+                            <li><input type="radio" name="q1" value="a"> Деректерді шифрлау </li>
+                            <li><input type="radio" name="q1" value="b"> Деректерді бағыттау </li>
+                            <li><input type="radio" name="q1" value="c"> Деректерді беру қателерін бақылау </li>
+                        </ul>
+                    </div>
+                
+                    <div class="question">
+                        <h3>Сұрақ 2:</h3>
+                        <p>"HTML" аббревиатурасы нені білдіреді?</p>
+                
+                        <ul class="answers">
+                            <li><input type="radio" name="q2" value="a"> HyperText Markup Language </li>
+                            <li><input type="radio" name="q2" value="b"> HighTech Modern Language </li>
+                            <li><input type="radio" name="q2" value="c"> Hyperlink and Text Markup Language </li>
+                        </ul>
+                    </div>
+                
+                    <button onclick="checkAnswers2()">Тексеру</button>
+                    <div id="result-section2"></div>
+                    <div id="result"></div>
+                </section>
+            </div>
+            <div class="course">
+                <h3>Тарау 3</h3>
+                <p>Кеңейтілген көлемде барлық сала жағын үйрену</p>
+                <a href="#contact" class="button">Жазылу</a>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="450" height="300" src="https://www.youtube.com/embed/cXHWMTwC_U0?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <section id="test">
+                    <h2>Тест</h2>
+                
+                    <div class="question">
+                        <h3>Сұрақ 1:</h3>
+                        <p>Компьютерлік желілердегі SSH протоколының мақсаты қандай?</p>
+                
+                        <ul class="answers">
+                            <li><input type="radio" name="q1" value="a"> Құрылғыларға қауіпсіз қашықтан қосылу </li>
+                            <li><input type="radio" name="q1" value="b"> Желідегі файлдарды тасымалдау</li>
+                            <li><input type="radio" name="q1" value="c"> IP мекенжайларын автоматты түрде орнату </li>
+                        </ul>
+                    </div>
+                
+                    <div class="question">
+                        <h3>Сұрақ  2:</h3>
+                        <p>Компьютерлік желілерде SNMP протоколы қандай функцияны орындайды?</p>
+                
+                        <ul class="answers">
+                            <li><input type="radio" name="q2" value="a"> Тасымалдау деректерін шифрлау </li>
+                            <li><input type="radio" name="q2" value="b"> Желілік құрылғыларды басқару және бақылау </li>
+                            <li><input type="radio" name="q2" value="c"> Желілік трафикті бағыттау </li>
+                        </ul>
+                    </div>
+                
+                    <button onclick="checkAnswers3()">Тексеру</button>
+                    <div id="result-section3"></div>
+                    <div id="result"></div>
+                    
+            <div id="overall-progress"></div>
+
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; ICT - Электронды окыту</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
